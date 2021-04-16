@@ -1,0 +1,28 @@
+package main
+
+import "fmt"
+
+var x string = "Super helper string, Accessible to everyone"
+
+func main() {
+	var x string = "Hello Senpai!"
+	fmt.Println("Hello World!")
+	fmt.Println(len("Hello world"))
+	fmt.Println("Hello World"[1])
+	fmt.Println("Hello" + "World")
+	fmt.Println("True and True: ", true && true)
+	fmt.Println("True and false: ", true && false)
+	fmt.Println("True or True: ", true || true)
+	fmt.Println("True or false: ", true || false)
+	fmt.Println(x)
+	fmt.Print("Enter a number: ")
+	var input float64
+	fmt.Scanf("%f", &input)
+	output := input * 2
+	fmt.Println(output)
+	fmt.Println("Trying it out in Emacs and seeing how it looks!")
+}
+
+func f() {
+	fmt.Println(x)
+}
